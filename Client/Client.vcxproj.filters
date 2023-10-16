@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{daf156c4-23a9-4abc-94d3-bf6df3bae02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Engine">
+      <UniqueIdentifier>{2cafff3c-2791-41a8-9fd9-dbfd079ba818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager">
+      <UniqueIdentifier>{04724449-f3c4-46c5-bb96-2daee4e1de7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\01. SceneMgr">
+      <UniqueIdentifier>{494eb6e9-072f-4ee5-9c78-6a95d3c75e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\02. ResMgr">
+      <UniqueIdentifier>{38af4a57-65e2-47d7-b455-53cc1e2ee682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\03. PathMgr">
+      <UniqueIdentifier>{17551710-bf1d-46c2-bea0-745087f8b5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\04. TimeMgr">
+      <UniqueIdentifier>{ee515dfd-5692-4c61-814a-7ddd9ffc531f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\05. KeyMgr">
+      <UniqueIdentifier>{345beade-bf46-4392-a3a7-f9ba4e242e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\06. SoundMgr">
+      <UniqueIdentifier>{e6c984f8-e9bc-4ba1-aa21-e324ff52d448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\07. CollisionMgr">
+      <UniqueIdentifier>{5bac87c1-d572-4a0b-9fe7-4b192a6c65fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. Header">
+      <UniqueIdentifier>{7e620526-7a9c-4942-82c6-f28c30704b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object">
+      <UniqueIdentifier>{8578e5a7-6a7e-4026-aeb6-fc0103ba30a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene">
+      <UniqueIdentifier>{1ed39943-665c-4ca9-8079-41a17b109845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\01. LOGO">
+      <UniqueIdentifier>{45689004-bede-494a-95dd-38c16263969c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource">
+      <UniqueIdentifier>{1db20bdb-6ad6-46b8-a329-18163be63e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\Image">
+      <UniqueIdentifier>{cdbe1b7a-1556-468e-a4ed-e1d7a618eb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\Sound">
+      <UniqueIdentifier>{bd513a44-9928-4ee5-9007-fde0ccfe4a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component">
+      <UniqueIdentifier>{d81ee836-0d20-4719-9e8b-6a3535853607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Collider">
+      <UniqueIdentifier>{2e6e50e6-b3a8-4abd-bf89-50452e10d356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Animator">
+      <UniqueIdentifier>{f9982560-6187-482f-a84a-1f9f5a11ed63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="default">
+      <UniqueIdentifier>{ffa5466b-b944-420e-b599-f315ba958ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Animator\Animation">
+      <UniqueIdentifier>{d65b4bee-ccc8-47b9-b469-fad51cb82648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\RigidBody">
+      <UniqueIdentifier>{c750b131-51c9-46e1-a9c2-faa437e800ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Tile">
+      <UniqueIdentifier>{81c6c340-6bd3-412b-a6f1-f115ad4105ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI">
+      <UniqueIdentifier>{a73a1984-ac9e-4f97-8a27-92ff9d7929d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI\Button">
+      <UniqueIdentifier>{49397358-f8c9-4319-ada6-3bd5e146b4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI\Panel">
+      <UniqueIdentifier>{e5bce364-e315-47a6-830f-68ac913f9867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\08. EventMgr">
+      <UniqueIdentifier>{beab8215-be16-4252-8da0-5cea73bbd476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\09. UIMgr">
+      <UniqueIdentifier>{fafd9609-5152-40be-868b-622c44a12acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\03. STAGE">
+      <UniqueIdentifier>{860ae8bf-37ef-46c5-98f2-b209c53c8b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\00. TOOL">
+      <UniqueIdentifier>{4e1b6ac8-104e-4ed6-a2e6-26a17a248b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Thing">
+      <UniqueIdentifier>{52d0b2f6-7124-444f-bd66-0d47a9908579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\10. RuleEventMgr">
+      <UniqueIdentifier>{d45a5e5d-1f88-404d-a369-3fb620cf9673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Menu">
+      <UniqueIdentifier>{cf536cc0-603b-4a99-8ec5-290d47e5246b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\02. WORLDMAP">
+      <UniqueIdentifier>{7b2af374-1768-48d9-a1cf-1e38ac8abe1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect">
+      <UniqueIdentifier>{f6bac11d-6a1e-4bfc-aa02-4a42c3e18d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect\Move">
+      <UniqueIdentifier>{ede92ca4-6406-4edd-a9d3-c810353ea684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect\WinTwinkle">
+      <UniqueIdentifier>{3d279858-d89b-4c45-a289-e277e13bedc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect\WinTitle">
+      <UniqueIdentifier>{3cecf317-9b68-4e4e-b2ff-c406d7393a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect\WinSpark">
+      <UniqueIdentifier>{437a98b6-7c59-4bde-a9f0-f3abf363a502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect\Spark">
+      <UniqueIdentifier>{2c1bad1e-10fe-4e6d-9eaf-eb035146660a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Effect\Burned">
+      <UniqueIdentifier>{9b0757be-715c-4bee-b55b-4b4cb1faccbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI\Panel\Tool">
+      <UniqueIdentifier>{e53aa1cd-dbc5-4a3f-90aa-90b2e82c72d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\01. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Game\04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Game\02. Manager\01. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game\03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\02. Manager\04. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\02. Manager\05. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Game\02. Manager\02. ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Game\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>Game\06. Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\02. Manager\03. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\05. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\05. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\05. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\02. Manager\07. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Game\02. Manager\08. EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Game\05. Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Game\05. Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Game\04. Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\04. Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\02. Manager\09. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Game\04. Object\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Game\04. Object\UI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\02. Manager\06. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\06. Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CRuleEventMgr.h">
+      <Filter>Game\02. Manager\10. RuleEventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CThing.h">
+      <Filter>Game\04. Object\Thing</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Logo.h">
+      <Filter>Game\03. Scene\01. LOGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu.h">
+      <Filter>Game\04. Object\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu_anim.h">
+      <Filter>Game\04. Object\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_World.h">
+      <Filter>Game\03. Scene\02. WORLDMAP</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage.h">
+      <Filter>Game\03. Scene\03. STAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoveEffect.h">
+      <Filter>Game\04. Object\Effect\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinTwinkle.h">
+      <Filter>Game\04. Object\Effect\WinTwinkle</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinTitle.h">
+      <Filter>Game\04. Object\Effect\WinTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinSpark.h">
+      <Filter>Game\04. Object\Effect\WinSpark</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpark.h">
+      <Filter>Game\04. Object\Effect\Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="CBurned.h">
+      <Filter>Game\04. Object\Effect\Burned</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Tool.h">
+      <Filter>Game\03. Scene\00. TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolPanel.h">
+      <Filter>Game\04. Object\UI\Panel\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolTile.h">
+      <Filter>Game\04. Object\Tile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\01. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Game\04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Game\02. Manager\01. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game\03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\02. Manager\04. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\02. Manager\05. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Game\02. Manager\02. ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Game\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CImage.cpp">
+      <Filter>Game\06. Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\02. Manager\03. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\05. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\05. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\05. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\02. Manager\07. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Game\02. Manager\08. EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Game\05. Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Game\05. Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Game\04. Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\04. Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\02. Manager\09. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Game\04. Object\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Game\04. Object\UI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>default</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\02. Manager\06. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\06. Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage.cpp">
+      <Filter>Game\03. Scene\03. STAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="CRuleEventMgr.cpp">
+      <Filter>Game\02. Manager\10. RuleEventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CThing.cpp">
+      <Filter>Game\04. Object\Thing</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Logo.cpp">
+      <Filter>Game\03. Scene\01. LOGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu.cpp">
+      <Filter>Game\04. Object\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu_anim.cpp">
+      <Filter>Game\04. Object\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_World.cpp">
+      <Filter>Game\03. Scene\02. WORLDMAP</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoveEffect.cpp">
+      <Filter>Game\04. Object\Effect\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinTwinkle.cpp">
+      <Filter>Game\04. Object\Effect\WinTwinkle</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinTitle.cpp">
+      <Filter>Game\04. Object\Effect\WinTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinSpark.cpp">
+      <Filter>Game\04. Object\Effect\WinSpark</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpark.cpp">
+      <Filter>Game\04. Object\Effect\Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="CBurned.cpp">
+      <Filter>Game\04. Object\Effect\Burned</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Tool.cpp">
+      <Filter>Game\03. Scene\00. TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolPanel.cpp">
+      <Filter>Game\04. Object\UI\Panel\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolTile.cpp">
+      <Filter>Game\04. Object\Tile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
